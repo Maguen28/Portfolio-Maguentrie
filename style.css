@@ -343,11 +343,11 @@ SKILLS (FIX IMPORTANT)
   animation: fillBar 1.5s forwards;
 }
 
-.html { animation-delay: 0.2s; --final-width: 90%; }
-.css  { animation-delay: 0.4s; --final-width: 85%; }
-.js   { animation-delay: 0.6s; --final-width: 70%; }
-.wp   { animation-delay: 0.8s; --final-width: 80%; }
-.php  { animation-delay: 1s; --final-width: 45%; }
+.rs { animation-delay: 0.2s; --final-width: 90%; }
+.cc  { animation-delay: 0.4s; --final-width: 85%; }
+.canva   { animation-delay: 0.6s; --final-width: 70%; }
+.cd  { animation-delay: 0.8s; --final-width: 80%; }
+.org { animation-delay: 1s; --final-width: 45%; }
 @keyframes fillBar {
   to { width: var(--final-width); }
 }
